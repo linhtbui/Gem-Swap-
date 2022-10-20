@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87D6E02622603C3D00491497 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 87D6E02522603C3D00491497 /* main.cpp */; };
+		87D6E03222603D5E00491497 /* stb_image.c in Sources */ = {isa = PBXBuildFile; fileRef = 87D6E03122603D5E00491497 /* stb_image.c */; };
+		87D6E03622603D7A00491497 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87D6E03422603D7A00491497 /* GLUT.framework */; };
+		87D6E03722603D7A00491497 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87D6E03522603D7A00491497 /* OpenGL.framework */; };
+		87D6E03822603D9A00491497 /* diamond.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87D6E03022603D0000491497 /* diamond.png */; };
+		87D6E03922603D9A00491497 /* asteroid.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87D6E02C22603C7C00491497 /* asteroid.png */; };
+		87D6E03A22603D9A00491497 /* asteroid1.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87D6E02D22603C7C00491497 /* asteroid1.png */; };
+		87D6E03B22603D9A00491497 /* asteroid2.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87D6E02E22603C7C00491497 /* asteroid2.png */; };
+		87D6E03C22603D9A00491497 /* asteroid3.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87D6E02F22603C7C00491497 /* asteroid3.png */; };
+		87D6E03D22603E0300491497 /* stb_image.c in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87D6E03122603D5E00491497 /* stb_image.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		87D6E02022603C3D00491497 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				87D6E03D22603E0300491497 /* stb_image.c in CopyFiles */,
+				87D6E03822603D9A00491497 /* diamond.png in CopyFiles */,
+				87D6E03922603D9A00491497 /* asteroid.png in CopyFiles */,
+				87D6E03A22603D9A00491497 /* asteroid1.png in CopyFiles */,
+				87D6E03B22603D9A00491497 /* asteroid2.png in CopyFiles */,
+				87D6E03C22603D9A00491497 /* asteroid3.png in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		87D6E02222603C3D00491497 /* GemSwapGraphics */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GemSwapGraphics; sourceTree = BUILT_PRODUCTS_DIR; };
+		87D6E02522603C3D00491497 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		87D6E02C22603C7C00491497 /* asteroid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asteroid.png; sourceTree = "<group>"; };
+		87D6E02D22603C7C00491497 /* asteroid1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asteroid1.png; sourceTree = "<group>"; };
+		87D6E02E22603C7C00491497 /* asteroid2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asteroid2.png; sourceTree = "<group>"; };
+		87D6E02F22603C7C00491497 /* asteroid3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asteroid3.png; sourceTree = "<group>"; };
+		87D6E03022603D0000491497 /* diamond.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = diamond.png; sourceTree = "<group>"; };
+		87D6E03122603D5E00491497 /* stb_image.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stb_image.c; sourceTree = "<group>"; };
+		87D6E03422603D7A00491497 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		87D6E03522603D7A00491497 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87D6E01F22603C3D00491497 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87D6E03622603D7A00491497 /* GLUT.framework in Frameworks */,
+				87D6E03722603D7A00491497 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87D6E01922603C3D00491497 = {
+			isa = PBXGroup;
+			children = (
+				87D6E02422603C3D00491497 /* GemSwapGraphics */,
+				87D6E02322603C3D00491497 /* Products */,
+				87D6E03322603D7A00491497 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		87D6E02322603C3D00491497 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87D6E02222603C3D00491497 /* GemSwapGraphics */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87D6E02422603C3D00491497 /* GemSwapGraphics */ = {
+			isa = PBXGroup;
+			children = (
+				87D6E03122603D5E00491497 /* stb_image.c */,
+				87D6E03022603D0000491497 /* diamond.png */,
+				87D6E02C22603C7C00491497 /* asteroid.png */,
+				87D6E02D22603C7C00491497 /* asteroid1.png */,
+				87D6E02E22603C7C00491497 /* asteroid2.png */,
+				87D6E02F22603C7C00491497 /* asteroid3.png */,
+				87D6E02522603C3D00491497 /* main.cpp */,
+			);
+			path = GemSwapGraphics;
+			sourceTree = "<group>";
+		};
+		87D6E03322603D7A00491497 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87D6E03422603D7A00491497 /* GLUT.framework */,
+				87D6E03522603D7A00491497 /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87D6E02122603C3D00491497 /* GemSwapGraphics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87D6E02922603C3D00491497 /* Build configuration list for PBXNativeTarget "GemSwapGraphics" */;
+			buildPhases = (
+				87D6E01E22603C3D00491497 /* Sources */,
+				87D6E01F22603C3D00491497 /* Frameworks */,
+				87D6E02022603C3D00491497 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GemSwapGraphics;
+			productName = GemSwapGraphics;
+			productReference = 87D6E02222603C3D00491497 /* GemSwapGraphics */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87D6E01A22603C3D00491497 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Linh Bui";
+				TargetAttributes = {
+					87D6E02122603C3D00491497 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 87D6E01D22603C3D00491497 /* Build configuration list for PBXProject "GemSwapGraphics" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 87D6E01922603C3D00491497;
+			productRefGroup = 87D6E02322603C3D00491497 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87D6E02122603C3D00491497 /* GemSwapGraphics */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87D6E01E22603C3D00491497 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87D6E02622603C3D00491497 /* main.cpp in Sources */,
+				87D6E03222603D5E00491497 /* stb_image.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		87D6E02722603C3D00491497 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		87D6E02822603C3D00491497 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		87D6E02A22603C3D00491497 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		87D6E02B22603C3D00491497 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87D6E01D22603C3D00491497 /* Build configuration list for PBXProject "GemSwapGraphics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87D6E02722603C3D00491497 /* Debug */,
+				87D6E02822603C3D00491497 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87D6E02922603C3D00491497 /* Build configuration list for PBXNativeTarget "GemSwapGraphics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87D6E02A22603C3D00491497 /* Debug */,
+				87D6E02B22603C3D00491497 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87D6E01A22603C3D00491497 /* Project object */;
+}
